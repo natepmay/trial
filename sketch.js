@@ -1,6 +1,5 @@
 function setup() {
-  let cnv = createCanvas(640, 480);
-  cnv.parent('myContainer');
+  createCanvas(640, 480);
   // put setup code here
 }
 
