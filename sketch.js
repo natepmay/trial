@@ -1,11 +1,14 @@
+let soundy
+
 function setup() {
+  soundy = loadSound('Samples_flat/duane-01.wav');
   createCanvas(640, 480);
-  // put setup code here
 }
 
 function draw() {
   if (mouseIsPressed) {
     fill(0);
+    soundy.play();
   } else {
     fill(255);
   }
